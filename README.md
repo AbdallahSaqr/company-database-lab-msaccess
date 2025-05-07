@@ -4,11 +4,10 @@ This repository contains the implementation of a relational company database usi
 
 ## 📁 Structure
 
-schema/ -- CREATE TABLE statements (DDL)
-data/ -- INSERT INTO statements (DML)
-queries/ -- SQL queries for solving assignment tasks
-diagrams/ -- (Optional) ERD or schema diagrams
-access-version/ -- (Optional) MS Access file or screenshots
+|
+|--Lab 2 queries / -- SQL queries for solving assignment tasks
+|--Lab 3 queries / -- SQL queries for solving assignment tasks
+
 
 markdown
 Copy
