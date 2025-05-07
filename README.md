@@ -1,49 +1,50 @@
-# Company Database Lab – Microsoft Access
+# 📊 SQL Queries – Company Database Labs (Microsoft Access)
 
-This repository contains the implementation of a relational company database using Microsoft Access as part of a database systems lab assignment. It includes schema creation, data insertion, query solving (SELECT, UPDATE, DELETE), and business logic implementation based on a given company dataset.
-
-## 📁 Structure
-
-|
-|--Lab 2 queries / -- SQL queries for solving assignment tasks
-|--Lab 3 queries / -- SQL queries for solving assignment tasks
-
-
-markdown
-Copy
-Edit
-
-## 📚 Description
-
-The database includes the following tables:
-- `Employee`
-- `Department`
-- `Project`
-- `Works_for`
-- `Dependent`
-
-The project covers:
-- Table creation and relationship constraints
-- Populating tables with initial data
-- Writing SQL queries to retrieve, update, and delete records
-- Handling referential integrity and relational joins
-- Solving business-specific logic (e.g., managers with no dependents)
-
-## ⚠ Notes
-
-- This lab was built using **Microsoft Access**, so some SQL syntax is slightly different from MySQL/PostgreSQL.
-- Pay attention to field data types and relationships when importing or modifying data.
-
-## ✅ Usage
-
-1. Open `company-database.accdb` in Microsoft Access (if included).
-2. Alternatively, copy and paste the SQL files into Access's SQL view in the Query Design tool.
-3. Check the `queries/` folder for ready-to-run query solutions.
-
-## 👨‍💻 Author
-
-Abdallah Ramadan - github.com/AbdallahSaqr
+This folder contains the SQL queries for solving Lab 2 and Lab 3 exercises based on a Company Database schema. The queries were tested and written for **Microsoft Access** and cover a wide range of SQL operations including selection, joins, aggregation, subqueries, and filtering.
 
 ---
 
-Feel free to fork, clone, and explore.
+## 🧪 Files Included
+
+### 🔹 `lab2_queries.sql`
+Contains solutions to Lab 2 tasks, such as:
+- Basic SELECT statements with `WHERE` and `BETWEEN`
+- String operations and column aliasing
+- Use of `LIKE` for pattern matching
+- Multi-condition filters using `AND` / `OR`
+
+### 🔹 `lab3_queries.sql`
+Contains solutions to Lab 3 tasks, including:
+- Multi-table `JOIN` queries
+- Subqueries (e.g., `WHERE IN`, `WHERE = (SELECT ...)`)
+- Aggregation with `GROUP BY` and `HAVING`
+- Sorting with `ORDER BY`
+
+---
+
+## 🧠 How to Use
+
+1. Open **Microsoft Access** and load the Company Database.
+2. Go to **Create > Query Design** → switch to **SQL View**.
+3. Copy any query from these `.sql` files and paste it into SQL View.
+4. Click **Run** (red exclamation mark) to execute the query.
+
+---
+
+## 📝 Notes
+
+- Some queries rely on specific schema/table names (`Departments`, `Employee`, `Project`, `Works_for`, `Dependent`). Make sure your Access tables use the same names or update the queries accordingly.
+- Date literals are written using `#MM/DD/YYYY#` as required by Access.
+- String concatenation uses `&`, not `+`, in Access SQL.
+
+---
+
+## 👨‍💻 Author
+
+Abdallah Ramadan  
+Lab Work: SQL – Database Fundamentals  
+Format: Microsoft Access SQL
+
+---
+
+Feel free to explore, modify, and adapt these queries to your own database assignments.
